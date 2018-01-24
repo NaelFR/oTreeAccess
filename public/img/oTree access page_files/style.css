@@ -3,18 +3,9 @@ body {
     padding: 20px;
 }
 
-.header img {
-    float: left;
-    width: 150px;
-    height: 150px;
+.header {
+    display: block;
 }
-
-.header h1 {
-    position: relative;
-    top: 53px;
-    left: 10px;
-}
-
 .content {
     display: -webkit-box;
     display: -webkit-flex;
@@ -25,7 +16,7 @@ body {
     height: 100%;
 }
 .access-content {
-    width: 35%%;
+    width: 50%;
 }
 
 .access-content .card {

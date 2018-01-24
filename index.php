@@ -1,10 +1,14 @@
 <html>
-<head>
-    <title>Test PHP</title>
-</head>
-<body>
+    <?php
+        include "pages/header.php"
+    ?>
+    <body>
     <?php
         include "pages/home.php"
     ?>
-</body>
+
+    <?php
+        include "pages/script.php"
+    ?>
+   </body>
 </html>
