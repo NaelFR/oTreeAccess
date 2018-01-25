@@ -3,16 +3,21 @@ body {
     padding: 20px;
 }
 
+.header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
 .header img {
-    float: left;
+    vertical-align: middle;
     width: 150px;
     height: 150px;
 }
 
 .header h1 {
-    position: relative;
-    top: 53px;
-    left: 10px;
+    padding-top: 50px;
 }
 
 .content {
@@ -22,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: calc(100% - 150px);
 }
 .access-content {
     width: 35%%;
@@ -38,8 +43,4 @@ body {
 
 .access-content h1{
     text-align: center;
-}
-
-.card-block {
-
 }
